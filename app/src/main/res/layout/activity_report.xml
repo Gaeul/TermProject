@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#3F0099"
+        android:paddingBottom="@dimen/abc_action_bar_icon_vertical_padding"
+        android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding"
+        android:text="I'm doing this : "
+        android:textColor="#FFFFFF"
+        android:layout_weight="0.17" />
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"></Spinner>
+
+    <Chronometer
+        android:id="@+id/chronometer"
+        android:layout_width="fill_parent"
+        android:gravity="center"
+        android:paddingBottom="@dimen/abc_action_bar_icon_vertical_padding"
+        android:paddingTop="@dimen/abc_action_bar_icon_vertical_padding"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.09" />
+
+    <Button
+        android:id="@+id/buttonstart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/buttonstop"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New RadioButton"
+        android:id="@+id/radioButton"
+        android:layout_weight="0.17" />
+
+    <Button
+        android:id="@+id/buttonreset"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+</LinearLayout>
